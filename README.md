@@ -15,6 +15,9 @@
 git clone https://github.com/mymindwas/Nexus-.git
 ```
 ```bash
+cd Nexus-
+```
+```bash
 chmod +x setup_nexus_nodes.sh
 ```
 
