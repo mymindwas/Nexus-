@@ -48,23 +48,23 @@ screen -ls | grep nexus | awk '{print $1}' | xargs -I {} screen -S {} -X quit
 
 ## VPS内存过小可以自行添加虚拟内存
 
-# 给脚本添加执行权限
+### 给脚本添加执行权限
 chmod +x setup_swap.sh
 
-# 检查当前swap状态
+### 检查当前swap状态
 sudo ./setup_swap.sh status
 
-# 自动创建swap（推荐）
+### 自动创建swap（推荐）
 sudo ./setup_swap.sh create
 
-# 创建指定大小的swap（例如2GB）
+### 创建指定大小的swap（例如2GB）
 sudo ./setup_swap.sh create 2048
 
-# 优化swap参数
+### 优化swap参数
 sudo ./setup_swap.sh optimize
 
-# 删除swap文件
+### 删除swap文件
 sudo ./setup_swap.sh remove
 
-# 查看帮助
+### 查看帮助
 ./setup_swap.sh help
