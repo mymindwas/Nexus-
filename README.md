@@ -12,6 +12,9 @@
 
 ### 1. 给脚本执行权限
 ```bash
+git clone https://github.com/mymindwas/Nexus-.git
+```
+```bash
 chmod +x setup_nexus_nodes.sh
 ```
 
